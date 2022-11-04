@@ -1,0 +1,27 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+html {
+  user-select: none;
+}
+ul li,
+ol li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.boxGird {
+  width: 800px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 65% 1fr;
+}
